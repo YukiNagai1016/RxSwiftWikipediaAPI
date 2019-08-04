@@ -32,6 +32,7 @@ class WikipediaSearchAPIViewController: UIViewController {
                 cell.detailTextLabel?.text = "https://ja.wikipedia.org/w/index.php?curid=＼(result.pageid)"
             }
             .disposed(by: self.disposeBag)
+    
     }
     
 }
