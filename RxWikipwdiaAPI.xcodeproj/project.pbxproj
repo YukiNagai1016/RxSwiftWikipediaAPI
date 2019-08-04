@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EDD34FDF22A2350A6AFC3CD /* Pods_RxWikipwdiaAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1561B03792E0F4E47AF7443F /* Pods_RxWikipwdiaAPI.framework */; };
 		EFEAFFCE22F6DC32004237BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFCD22F6DC32004237BA /* AppDelegate.swift */; };
-		EFEAFFD022F6DC32004237BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFCF22F6DC32004237BA /* ViewController.swift */; };
 		EFEAFFD322F6DC32004237BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEAFFD122F6DC32004237BA /* Main.storyboard */; };
 		EFEAFFD622F6DC32004237BA /* RxWikipwdiaAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFD422F6DC32004237BA /* RxWikipwdiaAPI.xcdatamodeld */; };
 		EFEAFFD822F6DC34004237BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEAFFD722F6DC34004237BA /* Assets.xcassets */; };
 		EFEAFFDB22F6DC34004237BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEAFFD922F6DC34004237BA /* LaunchScreen.storyboard */; };
+		EFEAFFE322F6DC5F004237BA /* WikipwdiaSearchAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFE222F6DC5F004237BA /* WikipwdiaSearchAPIModel.swift */; };
+		EFEAFFE522F6DC72004237BA /* WikipwdiaSearchAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFE422F6DC72004237BA /* WikipwdiaSearchAPIViewController.swift */; };
+		EFEAFFE722F6DC8B004237BA /* WikipwdiaSearchAPIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFE622F6DC8B004237BA /* WikipwdiaSearchAPIViewModel.swift */; };
+		EFEAFFE922F6DC99004237BA /* WikipwdiaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFE822F6DC99004237BA /* WikipwdiaAPIClient.swift */; };
+		EFEAFFEB22F6DDD1004237BA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAFFEA22F6DDD1004237BA /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09E04716A97BBBD375B35F86 /* Pods-RxWikipwdiaAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxWikipwdiaAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxWikipwdiaAPI/Pods-RxWikipwdiaAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		1561B03792E0F4E47AF7443F /* Pods_RxWikipwdiaAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxWikipwdiaAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5CE9441A468D99B7FA8B1F /* Pods-RxWikipwdiaAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxWikipwdiaAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxWikipwdiaAPI/Pods-RxWikipwdiaAPI.release.xcconfig"; sourceTree = "<group>"; };
 		EFEAFFCA22F6DC32004237BA /* RxWikipwdiaAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxWikipwdiaAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEAFFCD22F6DC32004237BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFEAFFCF22F6DC32004237BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFEAFFD222F6DC32004237BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFEAFFD522F6DC32004237BA /* RxWikipwdiaAPI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxWikipwdiaAPI.xcdatamodel; sourceTree = "<group>"; };
 		EFEAFFD722F6DC34004237BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFEAFFDA22F6DC34004237BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFEAFFDC22F6DC34004237BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEAFFE222F6DC5F004237BA /* WikipwdiaSearchAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipwdiaSearchAPIModel.swift; sourceTree = "<group>"; };
+		EFEAFFE422F6DC72004237BA /* WikipwdiaSearchAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipwdiaSearchAPIViewController.swift; sourceTree = "<group>"; };
+		EFEAFFE622F6DC8B004237BA /* WikipwdiaSearchAPIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipwdiaSearchAPIViewModel.swift; sourceTree = "<group>"; };
+		EFEAFFE822F6DC99004237BA /* WikipwdiaAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipwdiaAPIClient.swift; sourceTree = "<group>"; };
+		EFEAFFEA22F6DDD1004237BA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDD34FDF22A2350A6AFC3CD /* Pods_RxWikipwdiaAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1051F63E8B9F972E9972239B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09E04716A97BBBD375B35F86 /* Pods-RxWikipwdiaAPI.debug.xcconfig */,
+				DB5CE9441A468D99B7FA8B1F /* Pods-RxWikipwdiaAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F97EB6F29A3511DAC479529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1561B03792E0F4E47AF7443F /* Pods_RxWikipwdiaAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EFEAFFC122F6DC32004237BA = {
 			isa = PBXGroup;
 			children = (
 				EFEAFFCC22F6DC32004237BA /* RxWikipwdiaAPI */,
 				EFEAFFCB22F6DC32004237BA /* Products */,
+				1051F63E8B9F972E9972239B /* Pods */,
+				8F97EB6F29A3511DAC479529 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,51 @@
 		EFEAFFCC22F6DC32004237BA /* RxWikipwdiaAPI */ = {
 			isa = PBXGroup;
 			children = (
-				EFEAFFCD22F6DC32004237BA /* AppDelegate.swift */,
-				EFEAFFCF22F6DC32004237BA /* ViewController.swift */,
-				EFEAFFD122F6DC32004237BA /* Main.storyboard */,
+				EFEAFFEF22F6DFF1004237BA /* Commons */,
+				EFEAFFEE22F6DFDF004237BA /* Model */,
+				EFEAFFEC22F6DFC9004237BA /* View */,
+				EFEAFFED22F6DFD5004237BA /* ViewModel */,
 				EFEAFFD722F6DC34004237BA /* Assets.xcassets */,
 				EFEAFFD922F6DC34004237BA /* LaunchScreen.storyboard */,
 				EFEAFFDC22F6DC34004237BA /* Info.plist */,
 				EFEAFFD422F6DC32004237BA /* RxWikipwdiaAPI.xcdatamodeld */,
 			);
 			path = RxWikipwdiaAPI;
+			sourceTree = "<group>";
+		};
+		EFEAFFEC22F6DFC9004237BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFEAFFD122F6DC32004237BA /* Main.storyboard */,
+				EFEAFFE422F6DC72004237BA /* WikipwdiaSearchAPIViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFEAFFED22F6DFD5004237BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFEAFFE622F6DC8B004237BA /* WikipwdiaSearchAPIViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFEAFFEE22F6DFDF004237BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFEAFFEA22F6DDD1004237BA /* Result.swift */,
+				EFEAFFE222F6DC5F004237BA /* WikipwdiaSearchAPIModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFEAFFEF22F6DFF1004237BA /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				EFEAFFCD22F6DC32004237BA /* AppDelegate.swift */,
+				EFEAFFE822F6DC99004237BA /* WikipwdiaAPIClient.swift */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEAFFDF22F6DC34004237BA /* Build configuration list for PBXNativeTarget "RxWikipwdiaAPI" */;
 			buildPhases = (
+				7A16DA31F2CE125F1F02B92C /* [CP] Check Pods Manifest.lock */,
 				EFEAFFC622F6DC32004237BA /* Sources */,
 				EFEAFFC722F6DC32004237BA /* Frameworks */,
 				EFEAFFC822F6DC32004237BA /* Resources */,
+				13759BFD4A8C6662ECA891F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +203,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13759BFD4A8C6662ECA891F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxWikipwdiaAPI/Pods-RxWikipwdiaAPI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxWikipwdiaAPI/Pods-RxWikipwdiaAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A16DA31F2CE125F1F02B92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxWikipwdiaAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFEAFFC622F6DC32004237BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEAFFD022F6DC32004237BA /* ViewController.swift in Sources */,
 				EFEAFFCE22F6DC32004237BA /* AppDelegate.swift in Sources */,
+				EFEAFFE322F6DC5F004237BA /* WikipwdiaSearchAPIModel.swift in Sources */,
+				EFEAFFE722F6DC8B004237BA /* WikipwdiaSearchAPIViewModel.swift in Sources */,
+				EFEAFFE522F6DC72004237BA /* WikipwdiaSearchAPIViewController.swift in Sources */,
 				EFEAFFD622F6DC32004237BA /* RxWikipwdiaAPI.xcdatamodeld in Sources */,
+				EFEAFFEB22F6DDD1004237BA /* Result.swift in Sources */,
+				EFEAFFE922F6DC99004237BA /* WikipwdiaAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +401,7 @@
 		};
 		EFEAFFE022F6DC34004237BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E04716A97BBBD375B35F86 /* Pods-RxWikipwdiaAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +420,7 @@
 		};
 		EFEAFFE122F6DC34004237BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5CE9441A468D99B7FA8B1F /* Pods-RxWikipwdiaAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
